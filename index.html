@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/sumon_nm.jpg" type="image/x-icon">
+    <title>This is my Leaning Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5012ed433c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="mydisplay2">
+            
+    </div>
+    
+
+    <section class="1. HTML">
+        <div class="mytable">
+            <div class="tableContainer">
+                <table>
+                    <caption>Practise Table</caption>
+                    <tr>
+                        <th>Roll</th>
+                        <th>Name</th>
+                        <th>Subjec</th>
+                        <th>Marks</th>
+                    </tr>
+            
+                    <tr>
+                        <td>01</td>
+                        <td>Sumon</td>
+                        <td>CSE</td>
+                        <td>4.25</td>
+                    </tr>
+            
+                    <tr>
+                        <td rowspan="2">02</td>
+                        <td>Anik</td>
+                        <td>CSE</td>
+                        <td>4.00</td>
+                    </tr>
+            
+                    <tr>
+                        <td colspan="2" style="text-align: center;">Niloy</td>
+                        <td>4.50</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    
+        <div>
+            <ol>
+                <li>Mango</li>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Strwabery</li>
+                <li>Grapes</li>
+            </ol>
+        
+            <ol type="a">
+                <li>Mango</li>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Strwabery</li>
+                <li>Grapes</li>
+            </ol>
+        
+            <ul>
+                <li>Mango</li>
+                <li style="color: green; font-size: large;"><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fezsai.com%2Fproduct%2Fapple%2F&psig=AOvVaw11xF7WZgOE-CjXyKDWve8l&ust=1625136229368000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCLiE8bGWv_ECFQAAAAAdAAAAABAD" style="color:brown;font-weight: bold;text-decoration: none;" target = _blank;>Apple</a></li>
+                <li>Banana</li>
+                <li>Strwabery</li>
+                <li>Grapes</li>
+            </ul>
+        
+            <ul type = 'circle'>
+                <li>Mango</li>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Strwabery</li>
+                <li>Grapes</li>
+            </ul>
+        </div>
+    
+        <div>
+            <p style="background-color: green;">This is a Paragraph</p>
+            <div style="background-color: red;">
+                <span style="background-color: green;">This is another paragraph</span>
+            </div>
+        </div>
+    
+        <div>
+            <p>This is paragraph</p>
+            <p class="p2">This is paragraph with class</p>
+            <p id="p3">This is paragraph with id</p> <!--sameid kkno ekadhik jaygay use kora jabe na -->
+        </div>
+    
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OTmQOjsl0eg?start=607" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    
+        <div>
+            <button type="button" onclick="myfunction()">Click Me</button>
+            <script>
+                function myfunction(){
+                    document.getElementById('p3').innerHTML = 'THIS IS FROM JAVASCRIPT';
+                }
+            </script>
+        </div>
+    
+        <div>
+            <p style="font-size: 2vw;">This is a paragraph</p>
+        </div><hr>
+    </section>
+
+    <section class="2. HTML Forms">
+        <form action="useraccount.php" method="get">
+
+            <label for="username">UserName:</label><br>
+            <input type="text" name="" id="" placeholder="sumon6638"><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" name="" id="" required><br>
+
+            <label for="Email">Email</label><br>
+            <input type="email" name="" id="" placeholder="@gmail.com"><br>
+
+            <label for="Gender">Gender</label><br>
+            <input type="radio" name="gender" value='Male' id="Male">Male
+            <input type="radio" name="gender" value="Female" id="Female">Female
+            <input type="radio" name="gender" value="Other" id="Other">Other<br>
+
+            <label for="Profession">Profession:</label>
+            <input type="checkbox" name="Student" id="Student">Student
+            <input type="checkbox" name="Student" id="Student">Service<br>
+
+            <label for="CV">Upload your CV: </label>
+            <input type="file" name="" id=""><br>
+
+            <label for="Favourite Colur">Your Favourite Colour: </label>
+            <input type="color" name="Fav. Colour" id=""><br>
+
+            <label for="Date of Birth">Date of Birth: </label>
+            <input type="date" name="" id=""><br>
+
+            <label for="Age of Year">Enter your age(Year): </label>
+            <input type="number" name="" id=""><br>
+
+            <label for="Search">Search Something: </label>
+            <input type="search" name="" id=""><br>
+
+            <label for="Tel">Enter Your Phone Number: </label>
+            <input type="tel" name="" id=""><br>
+
+            <label for="Region">Region</label>
+            <input type="text" name="" id="" list="mylist">
+            <datalist id="mylist">
+                <option value="Asia">Asia</option>
+                <option value="Pacific">Pacific</option>
+                <option value="East">East</option>
+                <option value="South">South</option>
+                <option value="West">West</option>
+            </datalist>
+            
+            <label for="Country">Enter Your Location: </label>
+            <select name="Your Location" id="">
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="America">America</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Peru">Peru</option>
+            </select><br>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="About Yourself..."></textarea><br>
+
+
+
+            <label for="Reset Form"></label>
+            <input type="reset" value="Reset All">
+
+            <input type="submit" value="Submit">
+        </form><hr>
+
+        <div class="demo_form">
+            <h3>Welcome to my form.</h3>
+    
+            <form action="useraccount.php" method="get">
+                <label for="user">Your UserName: </label>
+                <input type="text" name="" id=""><br>
+    
+                <label for="pass">Your Password: </label>
+                <input type="password" name="" id="" required><br>
+    
+                <label for="pin">Your Pin</label>
+                <input type="password" name="" id="" maxlength="5" placeholder="5 number"><br>
+    
+                <input type="submit" value="Submit">
+            </form>
+        </div><hr>
+    </section>
+
+    <section class="3. HTML Media">
+        <video src="/videos/space.mp4" width='90%vw' controls>Your Browser Doesn't Support file.</video><br>
+
+        <video height="400" width="500" controls>
+            <source src="/videos/cycle_romance.mp4" type="video/mp4">Your Browser Doesn't Support file.
+        </video><br>
+
+        <audio src="/audio/kichui_caini_ami.mp3" controls>Your Browser Doesn't Support file.</audio><br>
+
+        <audio controls>
+            <source src="/audio/kichui_caini_ami.mp3" type="audio/mp3">Your Browser Doesn't Support file.
+        </audio>
+        <hr>
+
+    </section>
+
+    
+    <section class="4. HTML Apis">
+        <div class="location">
+            <p id="empty"></p>
+
+            <button type="button" onclick="myPosition()">Get My Location</button>
+
+            <script>
+                var loca = document.getElementById('empty');
+
+                function myPosition(){
+                    if(navigator.geolocation){
+                        navigator.geolocation.getCurrentPosition(showLocation);
+                    }
+                }
+
+                function showLocation(position){
+                    loca.innerHTML='long :'+position.coords.longitude;
+                }
+            </script>
+        </div>
+
+        <div>
+            <p draggable="true">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quibusdam consequuntur nihil. Animi rem, recusandae cumque in obcaecati nam ex?</p>
+        </div><hr>
+    </section>
+
+    <section class="5. CSS">
+        <div class="blog1">
+            <img src="/img/it_firm.png" alt="This is the Company logo" width="100px">
+
+            <p><i class="fab fa-facebook"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat animi tempora minus aliquam iusto. Reprehenderit distinctio, hic minus ipsam facilis aliquam unde cum quidem voluptas sed porro doloremque quisquam laudantium fugiat nisi rerum eum consequatur reiciendis ea ab. Iure id illum vitae? Assumenda similique rerum consectetur quia facilis adipisci voluptatibus impedit nesciunt quibusdam autem sapiente repellat nam ad corporis incidunt cupiditate corrupti possimus, vel accusantium hic ipsam obcaecati ut! Magni, facilis in? Sunt deserunt voluptas, maxime beatae vel ipsum laudantium quidem nulla corrupti, nostrum vero labore incidunt veritatis. Natus quibusdam quasi sapiente porro? Illo eveniet commodi magni, mollitia optio consequatur!</p>
+        </div>
+    
+        <div class="blog2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat animi tempora minus aliquam iusto. Reprehenderit distinctio, hic minus ipsam facilis aliquam unde cum quidem voluptas sed porro doloremque quisquam laudantium fugiat nisi rerum eum consequatur reiciendis ea ab. Iure id illum vitae? Assumenda similique rerum consectetur quia facilis adipisci voluptatibus impedit nesciunt quibusdam autem sapiente repellat nam ad corporis incidunt cupiditate corrupti possimus, vel accusantium hic ipsam obcaecati ut! Magni, facilis in? Sunt deserunt voluptas, maxime beatae vel ipsum laudantium quidem nulla corrupti, nostrum vero labore incidunt veritatis. Natus quibusdam quasi sapiente porro? Illo eveniet commodi magni, mollitia optio consequatur!<i class="fas fa-hourglass-end"></i></p>
+            <a href="#" id="innerLink">Read More...</a>
+        </div>
+
+        <!-- This Is Dispaly -->
+
+        <div class="mydisplay">
+
+        </div>
+
+    </section>
+    
+</body>
+</html>

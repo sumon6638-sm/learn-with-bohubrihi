@@ -1,0 +1,24 @@
+
+*****************************HTML FORM*************************
+form ->	get method: এর মাধ্যমে আমরা ইউজার থেকে যে ডাটা নিবো সেগুলা ব্রাউজার এর url এ দেখাবে।
+	post method: এর মাধ্যমে আমরা বড় বড় বা কনফিডেন্সিয়াল ডেটা পাস করার জন্য ইউজ হয় , পাসওয়ার্ড , ইউজারনেম যেগুলা ব্রাউজারে শো করবে না।
+
+	action: form sb data j file ee jabe tar location.backend kono file amra j username or pass nibo segular processing.
+
+
+position 4 dhoroner:
+	1. Static : By default
+	2. Relative : onno position er sapekkhe tar position nirnoy korbe
+	3. fixed : fixed thakbe sbsmy ekjaygay
+	4. absolute : ei position tar upore thaka kono div ba parent tag er position wise bosay.
+	5. sticky : top 0 kore dile eta top ee lege thake. navbar er khetre use hoy.
+
+***navbar k div ee na rekhe section ee rakhle navbar ee position sticky kaj korbe na...
+
+*****Center Korar Niom
+	1.text-align: center;
+	2.text-align: justify; 2site ee soman jayga nibe.
+
+	3.display: block;
+	  width: __;
+	  margin: auto;

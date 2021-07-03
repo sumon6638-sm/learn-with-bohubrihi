@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+}
+
+.mydisplay2{
+    padding: 30px;
+    background-color: green;
+    position: sticky;
+    top: 0;
+}
+
+.mytable{
+    padding: 60px 200px;
+    background-color: blue;
+    margin-top: 20px;
+}
+
+.tableContainer{
+    margin: auto;
+    background-color: lightgray;
+    padding: 60px;
+    width: 245px;
+}
+
+.tableContainer table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: antiquewhite;
+    margin: auto;
+}
+
+.tableContainer th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+
+.tableContainer td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: lightblue;
+    color: black;
+}
+
+.p2{
+    color: red;
+}
+
+#p3{
+    color: green;
+}
+
+div.demo_form{
+    text-align: center;
+}
+
+div.demo_form input{
+    padding: 6px;
+}
+
+div.blog1{
+    border: 10px solid green;
+    border-radius: 15px;
+    border-bottom: 10px dashed green;
+    max-width: 100%;
+    background-color: lightgray;
+    padding: 15px;
+    padding-left: 55px;
+    margin: 25px;
+    margin-top: 0px;
+    display: none;
+}
+
+.blog1 p{
+    text-indent: 30px;
+    text-align: justify;
+    text-decoration: none;
+    letter-spacing: 0.8px;
+    text-shadow: 2px 2px lightskyblue;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Akaya Kanadaka', cursive, sans-serif;
+}
+
+div.blog2{
+    border: 10px solid green;
+    border-radius: 15px;
+    border-bottom: 10px dashed green;
+    max-width: 500px;
+    background-color: lightgray;
+    padding: 15px;
+    padding-left: 55px;
+    margin: auto;
+    visibility: hidden;
+}
+
+.blog2 p{
+    text-indent: 30px;
+    text-align: justify;
+    text-decoration: none;
+    letter-spacing: 0.8px;
+    text-shadow: 2px 2px lightskyblue;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Akaya Kanadaka', cursive, sans-serif;
+}
+
+#innerLink{
+    text-decoration: none;
+    color: black;
+    font-family: "Akaya Kanadaka";
+    font-size: 20px;
+    text-shadow: 2px 2px lightblue;
+    display: block; /*puro line k block korar jonno */
+    width: 110px; /*Likhar width newar jonno */
+    margin: auto; /*Uvoy pashe soman jayga faka korar jonno.*/
+    background-color: rgb(94, 182, 94);
+    padding: 20px;
+    border-radius: 5px 5px;
+}
+
+#innerLink:link{
+    background-color: blue;
+    color: rgb(223, 41, 41);
+    text-shadow: black;
+    padding: 15px;
+}
+
+#innerLink:visited{
+    background-color: white;
+    color: green;
+    padding: 15px;
+}
+
+#innerLink:hover{
+    background-color: red;
+    color: green;
+    padding: 15px;
+}
+
+#innerLink:checked{
+    background-color: green;
+    color: green;
+    padding: 15px;
+}
+
+.mydisplay{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 25px;
+    border: 3px solid red;
+}
+
